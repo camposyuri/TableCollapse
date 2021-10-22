@@ -1,7 +1,7 @@
 import React from "react";
 
 import { IconButton } from "@material-ui/core";
-import { useTheme } from "@material-ui/core/styles";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { KeyboardArrowLeft, KeyboardArrowRight } from "@material-ui/icons";
 
 const TablePaginationActions = ({ count, page, rowsPerPage, onPageChange }) => {

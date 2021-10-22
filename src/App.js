@@ -9,9 +9,9 @@ import {
 import CollapsibleTableHead from "./TableCollapse/CollapsibleTableHead";
 import CollapsibleTable from "./TableCollapse/CollapsibleTable";
 import CollapsedRow from "./TableCollapse/CollapsedRow";
-import TablePaginationActions from "@material-ui/core/TablePagination/TablePaginationActions";
 
 import "./styles.css";
+import TablePaginationActions from "./TableCollapse/TablePaginationActions";
 
 export default function App() {
   const [page, setPage] = useState(0);
