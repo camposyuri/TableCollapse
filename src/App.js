@@ -74,8 +74,7 @@ export default function App() {
               rowsPerPage={rowsPerPage}
               page={page}
               SelectProps={{
-                inputProps: { "aria-label": "rows per page" },
-                native: true
+                inputProps: { "aria-label": "rows per page" }
               }}
               onPageChange={handleChangePage}
               onRowsPerPageChange={handleChangeRowsPerPage}
